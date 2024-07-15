@@ -1,0 +1,32 @@
+version = 1
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "swift"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "kotlin"
+
+  [analyzers.meta]
+  runtime_version = "19"
+  language_version = "1.9"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/Prachyat-MAP1/ML.Solutions-BI"
+
+[[analyzers]]
+name = "csharp"
